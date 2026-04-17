@@ -1,0 +1,7 @@
+{
+    "name": "NewAPI Quota Monitor",
+    "description": "实时监控 NewAPI/OneAPI 的 API 额度，并在顶部栏显示",
+    "version": "1.0.0",
+    "author": "YourName",
+    "main": "index.js"
+}

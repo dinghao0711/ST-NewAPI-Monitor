@@ -1,0 +1,22 @@
+<div class="newapi-monitor-settings">
+    <h4>NewAPI 额度监控设置</h4>
+    <div class="flex-container alignitemscenter margin-b-1">
+        <label for="newapi_url">NewAPI 基础地址 (Base URL):</label>
+        <input id="newapi_url" type="text" class="text_pole" placeholder="https://api.yourdomain.com" />
+    </div>
+    <div class="flex-container alignitemscenter margin-b-1">
+        <label for="newapi_key">API 密钥 (sk-...):</label>
+        <input id="newapi_key" type="password" class="text_pole" placeholder="sk-xxxxxxxx" />
+    </div>
+    <div class="flex-container alignitemscenter margin-b-1">
+        <label for="newapi_refresh_interval">自动刷新间隔 (秒):</label>
+        <input id="newapi_refresh_interval" type="number" class="text_pole" value="60" min="10" />
+    </div>
+    <div class="flex-container alignitemscenter margin-b-1">
+        <label><input id="newapi_enable" type="checkbox" /> 启用监控</label>
+    </div>
+    <div class="flex-container alignitemscenter margin-b-1">
+        <div id="newapi_save_btn" class="menu_button">保存设置并刷新</div>
+    </div>
+    <small>提示: 插件会在每次收到 AI 回复后自动刷新额度。</small>
+</div>
